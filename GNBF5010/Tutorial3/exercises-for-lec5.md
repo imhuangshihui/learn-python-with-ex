@@ -17,7 +17,7 @@ combination. Create a dict of all combinations, using the sum of the two dice as
 value in the dict should be a list of tuples; each tuple has the value of two dice. The 
 general outline is something like the following: 
 
-    >dice_dict = {} 
+    dice_dict = {} 
     
     Loop with d1 from 1 to 6 
     
@@ -30,6 +30,6 @@ general outline is something like the following:
             replace entry in dictionary with oldList + newTuple 
             
      
-    >Loop over all values in the dictionary 
+     Loop over all values in the dictionary 
     
         print the key and the length of the list 
