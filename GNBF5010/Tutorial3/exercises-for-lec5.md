@@ -18,11 +18,18 @@ value in the dict should be a list of tuples; each tuple has the value of two di
 general outline is something like the following: 
 
     >dice_dict = {} 
+    
     Loop with d1 from 1 to 6 
+    
         Loop with d2 from 1 to 6 
+        
             newTuple ← (d1, d2) # create the tuple 
+            
             oldList ← dictionary entry for sum d1+d2  
+            
             replace entry in dictionary with oldList + newTuple 
+            
      
-    Loop over all values in the dictionary 
+    >Loop over all values in the dictionary 
+    
         print the key and the length of the list 
